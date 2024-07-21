@@ -1,0 +1,266 @@
++++
+title = "smartIDE"
+linkTitle = "smartIDE"
+
++++
+
+{{< blocks/cover title="开箱即用、用完即焚的集成开发环境(IDE)" image_anchor="top" height="med" color="orange" >}}
+<div class="mx-auto">
+	<p class="lead mt-5">开源、云原生、IDE as Code</p>
+	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs/quickstart/" >}}">
+		快速开始 <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+	</a>
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" target="_blank" href="https://gitee.com/SmartIDE/SmartIDE">
+		Gitee <i class="iconfont icon-gitee"></i>
+	</a>
+	<p class="lead mt-1">
+		<img src="https://dev.azure.com/leansoftx/smartide/_apis/build/status/smartide-codesign-ci?branchName=main" />
+		<img src="https://github.com/smartide/smartide/actions/workflows/smartide-docs-publish.yml/badge.svg" />
+		<br/>
+		<img src="https://dev.azure.com/leansoftx/945b0f40-4baa-4f8a-be2c-4997b4c0af6a/23e62cbd-3bd8-42a3-a414-df7a1957a69b/_apis/work/boardbadge/37313877-3fed-46f3-87c0-dd28ce47e264" />
+	</p>
+	
+	{{< blocks/link-down color="info" >}}
+</div>
+{{< /blocks/cover >}}
+
+{{% blocks/lead %}}
+国内国际双开源地址，自动保持同步，方便开发者访问
+
+<a target="_blank" href="https://gitee.com/smartide"><svg t="1652158113057" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2401" width="80" height="80"><path d="M512 1024C230.4 1024 0 793.6 0 512S230.4 0 512 0s512 230.4 512 512-230.4 512-512 512z m259.2-569.6H480c-12.8 0-25.6 12.8-25.6 25.6v64c0 12.8 12.8 25.6 25.6 25.6h176c12.8 0 25.6 12.8 25.6 25.6v12.8c0 41.6-35.2 76.8-76.8 76.8h-240c-12.8 0-25.6-12.8-25.6-25.6V416c0-41.6 35.2-76.8 76.8-76.8h355.2c12.8 0 25.6-12.8 25.6-25.6v-64c0-12.8-12.8-25.6-25.6-25.6H416c-105.6 0-188.8 86.4-188.8 188.8V768c0 12.8 12.8 25.6 25.6 25.6h374.4c92.8 0 169.6-76.8 169.6-169.6v-144c0-12.8-12.8-25.6-25.6-25.6z" fill="#ffffff" p-id="2402"></path></svg></a>
+<a target="_blank" href="https://github.com/smartide"><svg t="1652158024450" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2114" width="92" height="92"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9 23.5 23.2 38.1 55.4 38.1 91v112.5c0.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z" p-id="2115" fill="#ffffff"></path></svg></a>
+{{% /blocks/lead %}}
+
+{{< blocks/section color="azure" >}}
+<div class="container">
+	<div class="col">
+		<div class="row p-0">
+			<div class="col-lg-6 mb-5 mb-lg-0" style="align-items: center;">
+				<p>跨平台</p>
+				<img src="/images/logo-windows.png" style="width:60px;height:auto;padding: 5px;"/>
+				<img src="/images/logo-apple.png" style="width:60px;height:auto;padding: 5px;"/>
+				<img src="/images/logo-linux.png" style="width:150px;height: auto;padding: 5px;"/>
+				<br/><br/><br/>
+				<p>多种IDE支持</p>
+				<img src="/images/logo-vscode.png" style="width:70px;height:auto;padding: 5px;"/>
+				<img src="/images/logo-jetbrains.png" style="width:80px;height:auto;padding: 5px;"/>
+				<img src="/images/logo-opensumi.svg" style="width:70px;height: auto;padding: 5px;"/>
+			</div>
+			<div class="col-lg-6 mb-5 mb-lg-0" style="align-items: center;">
+				<p>全技术栈</p>
+				<img src="/images/logo-javascript.png" style="width:120px;height: auto;padding: 5px;"/>
+				<img src="/images/logo-python.png" style="width:150px;height: auto;padding: 5px;"/>
+				<img src="/images/logo-nodejs.png" style="width:150px;height: auto;padding: 5px;"/>
+				<img src="/images/logo-java.png" style="width:120px;height: auto;padding: 5px;"/>				
+				<img src="/images/logo-golang.png" style="width:120px;height: auto;padding: 5px;"/>
+				<img src="/images/logo-php.png" style="width:80px;height: auto;padding: 5px;"/>
+				<img src="/images/logo-dotnet.png" style="width:100px;height: auto;padding: 5px;"/>
+				<img src="/images/logo-cpp.png" style="width:100px;height: auto;padding: 5px;"/>
+				<p> </p>
+				<p><a class="h5 d-inline" href="/zh/docs/templates/"> <i class="fas fa-arrow-right fa-1x"></i> 获取开发者镜像和IDE模版 </a></p>
+			</div>
+		</div>
+	</div>
+</div>
+{{< /blocks/section >}}
+
+{{< blocks/section color="light" >}}
+
+{{% blocks/feature icon="fas fa-bolt" title="一键启动" %}}
+真正实现一键启动开发环境，无需安装任何SDK和开发工具
+
+根据代码动态获取开发环境容器镜像
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fas fa-laptop-code" title="熟悉的IDE"%}}
+内置VSCode或者JetBrains WebIDE的远程工作区，提供你最熟悉的编码体验，安装自己常用的插件
+
+仅需要浏览器就可以编码调试和提交代码
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fas fa-cloud-upload-alt" title="上云很简单"%}}
+一键部署云端WebIDE环境，与本地保持一致的同时享受云环境的强大算力，存储和网络
+
+复杂算法，大数据，AI开发不再受限于你的开发机
+{{% /blocks/feature %}}
+
+{{< /blocks/section >}}
+
+{{< blocks/section color="dark">}}
+<div class="container">
+	<div class="col">
+		<div class="row p-0">
+			<div class="col-lg-12 mb-5 mb-lg-0 ">
+				<p class="h3 d-inline"> CLI 面向个人开发者的云端开发环境搭建神器 </p>
+			</div>			
+		</div>
+		<div class="row p-0">
+			<div class="col-lg-12 mb-5 mb-lg-0 ">
+				<p class="h3 d-inline"> ...... </p>
+			</div>			
+		</div>
+	<div class="col">
+		<div class="row p-0">
+			<div class="col-lg-6 mb-5 mb-lg-0">
+				<table>
+					<tr height="50px">
+						<td width="80px" align="center"><i class="fas fa-bolt fa-2x"></i></td>
+						<td><p class="h3 text-light d-inline"> 一键启动 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"><i class="fas fa-tools fa-2x"></i></td>
+						<td><p class="h3 text-light d-inline"> 无需配置环境 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"><i class="fas fa-rocket fa-2x"></i></td>
+						<td><p class="h3 text-light d-inline"> 自动编译、自动运行 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"><i class="fas fa-cogs fa-2x"></i></td>
+						<td><p class="h3 text-light d-inline"> 直接进入编码调试 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"><i class="fas fa-code fa-2x"></i></td>
+						<td><p class="h3 text-light d-inline"> 远程开发、本地体验 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"></td>
+						<td><a class="h5 text-light d-inline" href="/zh/docs/quickstart/"> <i class="fas fa-arrow-right fa-1x"></i> 立即体验 </a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-lg-6 mb-5 mb-lg-0">
+				{{< bilibili 336989627 >}}
+			</div>
+		</div>
+	</div>
+</div>
+{{< /blocks/section >}}
+
+{{< blocks/section color="light" >}}
+<div class="container">
+	<div class="col">
+		<div class="row p-0">
+			<div class="col-lg-12 mb-5 mb-lg-0 ">
+				<p class="h3 d-inline"> Server 面向团队的安全高效云端开发环境 </p>
+			</div>			
+		</div>
+		<div class="row p-0">
+			<div class="col-lg-12 mb-5 mb-lg-0 ">
+				<p class="h3 d-inline"> ...... </p>
+			</div>			
+		</div>
+		<div class="row p-0">
+			<div class="col-lg-6 mb-5 mb-lg-0">
+				{{< bilibili 553362128 >}}
+			</div>
+			<div class="col-lg-6 mb-5 mb-lg-0">
+				<table>
+					<tr height="50px">
+						<td width="80px" align="center"><i class="fas fa-list fa-2x"></i></td>
+						<td><p class="h3 d-inline"> 工作区统一管理 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"><i class="fas fa-network-wired fa-2x"></i></td>
+						<td><p class="h3 d-inline"> 多端接入、漫游开发 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"><i class="fas fa-user-friends fa-2x"></i></i></i></td>
+						<td><p class="h3 d-inline"> 团队开发、结对编程 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"><i class="fas fa-lock fa-2x"></i></td>
+						<td><p class="h3 d-inline"> 安全策略统一管控 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"><i class="fas fa-code fa-2x"></i></td>
+						<td><p class="h3 d-inline"> 远程开发、本地体验 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"></td>
+						<td>
+							<p> </p>
+							<a class="h5 d-inline" href="https://dev.smartide.cn"> <i class="fas fa-arrow-right fa-1x"></i> 立即体验 </a>							
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<p class="d-inline">* SmartIDE Server 正在内测，请加入 "SmartIDE社区早鸟计划" 获取内测权限</p>
+	</div>
+</div>
+{{< /blocks/section >}}
+
+{{< blocks/section color="dark">}}
+<div class="container">
+	<div class="col">
+		<div class="row p-0">
+			<div class="col-lg-12 mb-5 mb-lg-0 ">
+				<p class="h3 d-inline"> Marketplace 支持私有部署的VSCode插件市场 </p>
+			</div>			
+		</div>
+		<div class="row p-0">
+			<div class="col-lg-12 mb-5 mb-lg-0 ">
+				<p class="h3 d-inline"> ...... </p>
+			</div>			
+		</div>
+	<div class="col">
+		<div class="row p-0">
+			<div class="col-lg-6 mb-5 mb-lg-0">
+				<table>
+					<tr height="50px">
+						<td width="80px" align="center"><i class="fas fa-bolt fa-2x"></i></td>
+						<td><p class="h3 text-light d-inline"> 安装加速5X </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"><i class="fas fa-tools fa-2x"></i></td>
+						<td><p class="h3 text-light d-inline"> 安全管控 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"><i class="fas fa-rocket fa-2x"></i></td>
+						<td><p class="h3 text-light d-inline"> 支持类VSCode开源产品 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"><i class="fas fa-cogs fa-2x"></i></td>
+						<td><p class="h3 text-light d-inline"> 企业级技术支持 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"><i class="fas fa-code fa-2x"></i></td>
+						<td><p class="h3 text-light d-inline"> 自动同步插件 </p></td>
+					</tr>
+					<tr height="50px">
+						<td width="50px" align="center"></td>
+						<td><a class="h5 text-light d-inline" href="https://marketplace.smartide.cn"> <i class="fas fa-arrow-right fa-1x"></i> 立即体验 </a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-lg-6 mb-5 mb-lg-0">
+				{{< bilibili 341404674 >}}
+			</div>
+		</div>
+	</div>
+</div>
+{{< /blocks/section >}}
+
+{{< blocks/section color="azure;" >}}
+<div class="container">
+	<div class="col">
+		<div class="row p-0">
+			<div class="col-lg-4 mb-5 mb-lg-0" style="align-items: center;">
+				<p>SmartIDE 早鸟计划</p>
+  				<img src="/images/smartide-s-qrcode.png" style="width:120px;height:auto;padding: 1px;"/>
+				  <p style="font-size: small;color: brown;">扫码添加 “小S“ 微信，加入SmartIDE社区早鸟计划</p>
+			</div>
+			<div class="col-lg-8 mb-5 mb-lg-0" style="align-items: center;">
+				<p>合作伙伴</p>
+				<a href="http://leansoftx.com" target="_blank"><img src="/images/logo-leansoft.png" style="width:250px;height: auto;padding: 10px;"/></a>
+				<a href="https://idcf.org.cn" target="_blank"><img src="/images/logo-idcf.png" style="width:250px;height: auto;padding: 10px;"/></a>
+				<img src="/images/logo-mvp.png" style="width:150px;height: auto;padding: 10px;"/>
+				<img src="/images/logo-msrd.png" style="width:250px;height: auto;padding: 10px;"/>
+				<a href="https://www.51aspx.com" target="_blank"><img src="/images/logo-friendlink-51aspx.png" style="width:180px;height: auto;padding: 10px;"/></a>                                                              
+			</div>
+		</div>
+	</div>
+</div>
+{{< /blocks/section >}}
+

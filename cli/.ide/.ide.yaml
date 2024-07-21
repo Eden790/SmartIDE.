@@ -1,0 +1,19 @@
+version: smartide/v0.3
+orchestrator:
+  type: allinone
+  version: 3
+workspace:
+  dev-container:
+    service-name: smartide-go-dev
+    ports: # 申明端口
+      tools-webide-vscode: 6800
+      tools-ssh: 6822
+    ide-type: vscode  #vscode/theia
+    volumes: 
+        git-config: true
+        ssh-key: true
+    command: 
+        - go env -w GOPROXY=https://goproxy.cn,direct
+    
+  docker-compose-file: docker-compose.yaml  # 链接的docker-compose文件的相对路径
+  kube-deploy-files: ”*.deploy.yaml“ # 采用通配符的方式匹配“.ide”目录下的文件
